@@ -6,14 +6,61 @@ body {
 	font-weight: 400;
 	line-height: 24px;
 	color: #283136;
+	background-color: #ffffff;
 }
 a {
 	text-decoration: none;
 }
-ul {
-
-}
 .container {
 	width: 1440px;
 	margin: 0 auto;
+}
+.main-header {
+	background-color: #eeeeee;
+}
+.main-nav {
+	display: flex;
+	line-height: 30px;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+.main-menu {
+	display: flex;
+	list-style: none;
+}
+.main-menu a {
+	color: #000000;
+}
+.main-menu a:hover,
+.main-menu a:focus {
+	color: #fb565a;
+}
+.main-menu a:active {
+	color: rgba(0, 0, 0, 0.3); 
+}
+.basket {
+	list-style: none;
+}
+.cart {
+	color: #000000;
+}
+.cart:hover,
+.cart:focus {
+	color: #fb565a;
+}
+.cart:active {
+	color: rgba(0, 0, 0, 0.3);	
+}
+.slider {
+	background-color: #eeeeee;
+}
+.slide-title {
+	font-size: 55px;
+	line-height: 55px;
+	color: #000000;
+}
+.slide-text a {
+	line-height: 18px;
+	text-transform: uppercase;
+	color: #ffffff;
 }
